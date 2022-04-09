@@ -1,0 +1,37 @@
+body
+{
+    background-color: whitesmoke;
+}
+table.converter{
+    background-color:rgb(10, 143, 139) ;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75%; 
+}
+p{
+    font-style: oblique;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 300%;
+}
+table,tr,td{
+    font-size: 130%;
+    font-style: italic;
+    height: 90px;
+}
+.btn{
+    width:150px;
+    height: 50px; 
+}
+.intext{
+    height:30px;
+    width:300px;
+    font-size: 26px;
+}
+.outtext{
+    height:30px;
+    width:300px;
+    font-size: 26px;
+}

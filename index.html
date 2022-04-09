@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+   <p>Celsius To Fahrenheit Converter</p>
+       <table class="converter">
+           <tbody>
+               <tr>
+                   <td>
+                      Enter Temperature in Celsius:
+                   </td>
+                   <td class="math">
+                       <input type =""   id="data" name="" class="intext" /> C
+                   </td>
+               </tr>
+               <tr>
+                   <td>&nbsp;</td>
+                   <td>
+                       <input onclick="convert()" type="button" value="Convert" class="btn" >
+                       <input onclick="setfocus()" type="reset" value="Reset" class="btn"  >
+                   </td>
+                   <td>&nbsp;</td>
+                </tr>   
+                <tr>
+                    <td>Result in Fahrenheit:</td>
+                    <td class="math">
+                       <input type="" name="" id="res" class="outtext" disabled > F
+                    </td>  
+                </tr>  
+           </tbody>
+       </table>
+   <script src="java.js"></script>
+</body>
+</html>
